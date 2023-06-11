@@ -7,6 +7,9 @@ class EvenOddApp extends Component {
   onIncrement = () => {
     const newNum = Math.ceil(Math.random() * 100)
     this.setState({num: newNum})
+// //     this.setState(prevState => ({
+//     num: prevState.num + newNum
+//   })
   }
 
   getNumType = () => {
